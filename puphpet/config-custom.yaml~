@@ -1,0 +1,24 @@
+vagrantfile:
+    vm:
+        hostname: Porsche-BMS
+        synced_folder:
+            vflsf_z64gtcw0od4i:
+                target: /var/www/porsche
+apache:
+    vhosts:
+        av_nvjebw8jor9g:
+            servername: porsche.dev
+            serveraliases:
+                - porsche.dev
+            docroot: /var/www/porsche
+            directories:
+                avd_5xa3ga631b0o:
+                    path: /var/www/porsche
+mysql:
+    settings:
+        root_password: uraan123
+    databases:
+        mysqlnd_dcghdzjctstf:
+            name: porsche_db
+            sql: ''
+
