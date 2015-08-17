@@ -10,6 +10,7 @@ apache:
             servername: porsche.dev
             serveraliases:
                 - porsche.dev
+                - '*.vagrantshare.com'
             docroot: /var/www/porsche
             directories:
                 avd_5xa3ga631b0o:
