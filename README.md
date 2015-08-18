@@ -24,6 +24,6 @@ This vagrant project is based on CentOS 6.5 Box and helps in setting up a full L
    
    and then take a tea break because it will take a while to setup for the first time :)
 
-5. You can now browse the given vhost in your Host machine browser such as http://phpmyadmin.dev
+5. You can now browse the given vhost in your Host machine's browser such as http://phpmyadmin.dev
 
 
