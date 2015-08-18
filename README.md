@@ -1,4 +1,4 @@
-# LAMP Stack Using Vagrant
+# LAMP Stack Using Vagrant/Puppet
 
 Prerequisites:
 
