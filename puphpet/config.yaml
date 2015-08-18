@@ -78,8 +78,10 @@ server:
         - php-pear
 users_groups:
     install: '1'
-    groups: {  }
-    users: {  }
+    groups:
+        - www-data
+    users:
+        - 'www-user:www-data'
 locale:
     install: '1'
     settings:
