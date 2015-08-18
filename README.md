@@ -8,20 +8,20 @@ Prerequisites:
 This vagrant project is based on CentOS 6.5 Box and helps in setting up a full LAMP stack
 
 1. Clone this repo and copy all the files in your project root directory
+
 2. Change values accordingly in puphpet/config-custom.yaml
-3. Add a line with the IP address of the guest machine (check 'private_network' key in puphpet/config.yaml) and all vhosts you choose, in the Host Operating system 'hosts' file.
 
-Example:
+3. In the Host Operating system 'hosts' file, add a line with the IP address of the guest machine (check 'private_network' key in puphpet/config.yaml) and all vhosts you choose 
 
-- 192.168.56.101 porsche.dev
-- 192.168.56.101 phpmyadmin.dev
+   Example:
+
+    - 192.168.56.101 porsche.dev
+    - 192.168.56.101 phpmyadmin.dev
 
 4. Go to your project root directory in Host Operating System and run
 
-**$ vagrant up**
+   **$ vagrant up**
+
+5. You can browse the selected vhost in your Host machine browser such as http://phpmyadmin.dev
 
 and then take a tea break because it will take a while to setup for the first time :)
-
-
-
-
