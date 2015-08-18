@@ -20,8 +20,10 @@ This vagrant project is based on CentOS 6.5 Box and helps in setting up a full L
 
 4. Go to your project root directory in Host Operating System and run
 
-   **$ vagrant up**
+   ** > vagrant up**
+   
+   and then take a tea break because it will take a while to setup for the first time :)
 
-5. You can browse the selected vhost in your Host machine browser such as http://phpmyadmin.dev
+5. You can now browse the given vhost in your Host machine browser such as http://phpmyadmin.dev
 
-and then take a tea break because it will take a while to setup for the first time :)
+
