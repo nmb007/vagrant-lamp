@@ -2,14 +2,14 @@
 
 Prerequisites:
 
-1. Virtual Box
+1. Virtual Box 4.3
 2. Vagrant 1.7.4
 
 This vagrant project is based on CentOS 6.5 Box and helps in setting up a full LAMP stack
 
 1. Clone this repo and copy all the files (excluding README.md) in your project root directory
 
-2. Change values accordingly in puphpet/config-custom.yaml
+2. Change values accordingly in puphpet/config-custom.yaml and if required also change paths in puphpet/files/exec-once/custom.sh
 
 3. In the Host Operating system's 'hosts' file, add a line with the IP address of the guest machine (check 'private_network' key in puphpet/config.yaml) and all vhosts you choose 
 
