@@ -1,25 +1,26 @@
 vagrantfile:
     vm:
-        hostname: Porsche-BMS
+        hostname: Test-Project
         synced_folder:
             vflsf_z64gtcw0od4i:
-                target: /var/www/porsche
+                target: /var/www/project
 apache:
     vhosts:
         av_nvjebw8jor9g:
-            servername: porsche.dev
+            servername: project.dev
             serveraliases:
-                - porsche.dev
+                - project.dev
                 - '*.vagrantshare.com'
-            docroot: /var/www/porsche
+            docroot: /var/www/project/web
             directories:
                 avd_5xa3ga631b0o:
-                    path: /var/www/porsche
+                    path: /var/www/project/web
+                    custom_fragment: "## XSEND"
 mysql:
     settings:
         root_password: uraan123
     databases:
         mysqlnd_dcghdzjctstf:
-            name: porsche_db
+            name: project_db
             sql: ''
 

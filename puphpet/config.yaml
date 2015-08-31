@@ -4,7 +4,7 @@ vagrantfile:
         box: puphpet/centos65-x64
         box_url: puphpet/centos65-x64
         hostname: local.puphpet
-        memory: '512'
+        memory: '1024'
         cpus: '1'
         chosen_provider: virtualbox
         network:
@@ -76,6 +76,13 @@ server:
         - gcc
         - php-devel
         - php-pear
+        - nfs-utils
+        - nfs-utils-lib
+        - giflib
+        - cabextract
+        - xorg-x11-font-utils
+        - fontconfig
+        - libtool
 users_groups:
     install: '1'
     groups:
@@ -274,6 +281,7 @@ xdebug:
         xdebug.remote_enable: '1'
         xdebug.remote_handler: dbgp
         xdebug.remote_port: '9000'
+        xdebug.profiler_enable_trigger: '1'
 blackfire:
     install: '0'
     settings:
@@ -298,7 +306,12 @@ drush:
     version: 6.3.0
 ruby:
     install: '1'
-    versions: {  }
+    versions:
+        rv_nsrlx6zxklul:
+            version: 1.9.3
+            gems:
+                - sass
+
 python:
     install: '1'
     packages: {  }
