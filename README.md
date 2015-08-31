@@ -7,7 +7,7 @@ Prerequisites:
 
 This vagrant project is based on CentOS 6.5 Box and helps in setting up a full LAMP stack
 
-1. Clone this repo and copy all the files in your project root directory
+1. Clone this repo and copy all the files (excluding README.md) in your project root directory
 
 2. Change values accordingly in puphpet/config-custom.yaml
 
@@ -15,7 +15,7 @@ This vagrant project is based on CentOS 6.5 Box and helps in setting up a full L
 
    Example:
 
-    - 192.168.56.101 porsche.dev
+    - 192.168.56.101 project.dev
     - 192.168.56.101 phpmyadmin.dev
 
 4. Go to your project root directory in Host Operating System and run
