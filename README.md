@@ -26,4 +26,6 @@ This vagrant project is based on CentOS 6.5 Box and helps in setting up a full L
 
 5. You can now browse the given vhost in your Host machine's browser such as http://phpmyadmin.dev
 
+NOTE: Remember to always take back up of your database prior to running "**> vagrant destroy**"
+
 
