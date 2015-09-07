@@ -1,4 +1,4 @@
-# LAMP Stack Using Vagrant/Puppet
+# LAMP Stack Using Vagrant/Puphpet
 
 **Vagrant Box Ingredients**
 
