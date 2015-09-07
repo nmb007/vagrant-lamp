@@ -17,6 +17,7 @@ And:
 - Composer
 - PHPMyAdmin
 - Sass
+- PrinceXML
 
 **Requirements:**
 
