@@ -23,7 +23,7 @@ And:
 1. Virtual Box 4.3
 2. Vagrant 1.7.4
 
-Installation:
+**Installation:**
 
 1. Clone this repository and copy all the files (excluding README.md) in your project root directory
 
