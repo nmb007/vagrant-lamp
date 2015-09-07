@@ -42,7 +42,7 @@ And:
    
    and then take a tea break because it will take a while to setup for the first time :)
 
-6. You can accesss your web url e.g. http://project.dev/ in your browser.
+6. You can accesss your web url e.g. http://project.dev/ in your host machine's browser.
 
 **Default MySQL Password**
 
