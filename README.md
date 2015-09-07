@@ -1,31 +1,51 @@
 # LAMP Stack Using Vagrant/Puppet
 
-Prerequisites:
+**Vagrant Box**
+
+Basic CentOS 6.5 vagrant box with:
+
+- PHP 5.4
+- Apache 2.4
+- MySql 5.5
+
+And:
+
+- ImageMagick
+- XDebug
+- Curl
+- Ruby
+- Composer
+- PHPMyAdmin
+- Sass
+
+**Requirements:**
 
 1. Virtual Box 4.3
 2. Vagrant 1.7.4
 
-This vagrant project is based on CentOS 6.5 Box and helps in setting up a full LAMP stack
+Installation:
 
-1. Clone this repo and copy all the files (excluding README.md) in your project root directory
+1. Clone this repository and copy all the files (excluding README.md) in your project root directory
 
-2. Change values accordingly in puphpet/config-custom.yaml and if required also change paths in puphpet/files/exec-once/custom.sh
+2. Change values,paths accordingly in puphpet/config-custom.yaml and accordingly in puphpet/files/exec-once/custom.sh as well
 
-3. In the Host Operating system's 'hosts' file, add a line with the IP address of the guest machine (check 'private_network' key in puphpet/config.yaml) and all vhosts you choose 
+3. Install the plugin
 
-   Example:
+   **$ vagrant plugin install vagrant-hostmanager**
 
-    - 192.168.56.101 project.dev
-    - 192.168.56.101 phpmyadmin.dev
+4. Run **$ vagrant hostmanager** in your root directory of the project
 
-4. Go to your project root directory in Host Operating System and run
+5. Go to your project root directory in Host Operating System and run
 
-   **> vagrant up**
+   **$ vagrant up**
    
    and then take a tea break because it will take a while to setup for the first time :)
 
-5. You can now browse the given vhost in your Host machine's browser such as http://phpmyadmin.dev
+**Default MySQL Password**
 
-NOTE: Remember to always take back up of your database prior to running "**> vagrant destroy**"
+    Username: root
+    Password: uraan123
 
+PHPMyAdmin is at http://phpmyadmin.dev
 
+NOTE: Remember to always take back up of your database prior to running "**$ vagrant destroy**"
