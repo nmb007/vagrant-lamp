@@ -28,7 +28,7 @@ And:
 
 1. Clone this repository and copy all the files (excluding README.md) in your project root directory
 
-2. Change values and paths accordingly in `puphpet/config-custom.yaml` and accordingly in `puphpet/files/exec-once/custom.sh` as well
+2. Change values and paths accordingly in `puphpet/config-custom.yaml` and accordingly change Line # 5 and Line # 14 in `puphpet/files/exec-once/custom.sh` as well
 
 3. Install the plugin (If you have already installed in your system, then ignore this step)
 
