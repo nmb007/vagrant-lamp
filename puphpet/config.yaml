@@ -36,7 +36,7 @@ vagrantfile:
             vflsf_z64gtcw0od4i:
                 source: ./
                 target: /var/www/awesome
-                sync_type: default
+                sync_type: rsync
                 smb:
                     smb_host: ''
                     smb_username: ''
@@ -46,6 +46,7 @@ vagrantfile:
                         - '--verbose'
                         - '--archive'
                         - '-z'
+                        - '--delete'
                     exclude:
                         - .vagrant/
                         - .git/

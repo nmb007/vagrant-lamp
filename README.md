@@ -1,6 +1,6 @@
 # LAMP Stack Using Vagrant/Puphpet
 
-**Vagrant Box Ingredients**
+**Vagrant Box Ingredients:**
 
 Basic CentOS 6.5 vagrant box with:
 
