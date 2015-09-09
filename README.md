@@ -34,7 +34,7 @@ And:
 
    **$ vagrant plugin install vagrant-hostmanager**
 
-4. Run **$ vagrant hostmanager** in your terminal in your root directory of the project
+4. Type **$ vagrant hostmanager** in your terminal in your root directory of the project
 
 5. Go to your project root directory in Host Operating System and run
 
