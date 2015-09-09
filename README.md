@@ -30,16 +30,21 @@ And:
 
 2. Change values,paths accordingly in puphpet/config-custom.yaml and accordingly in puphpet/files/exec-once/custom.sh as well
 
-3. Install the plugin by typing in the following command
+3. Install the plugin
 
-   **$ vagrant plugin install vagrant-hostmanager**
+   ```bash
+   vagrant plugin install vagrant-hostmanager
+   ```
 
-4. Type **$ vagrant hostmanager** in your terminal in your root directory of the project
+4. Run the following command in your root directory of the project
+   ```bash
+    vagrant hostmanager
+    ```
 
-5. Go to your project root directory in Host Operating System and run
-
-   **$ vagrant up**
-   
+5. Go to your project root directory in your host operating system and run
+   ```bash
+   vagrant up
+   ```
    and then take a tea break because it will take a while to setup for the first time :)
 
 6. You can now access your web url e.g. http://project.dev/ in your host machine's browser.
