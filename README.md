@@ -36,17 +36,16 @@ And:
    vagrant plugin install vagrant-hostmanager
    ```
 
-4. Run the following command in your root directory of the project
-   ```bash
-    vagrant hostmanager
-    ```
-
-5. Go to your project root directory in your host operating system and run
+4. Go to your project root directory in your host operating system and run
    ```bash
    vagrant up
    ```
    and then take a :coffee: break because it will take a while to setup for the first time :)
 
+5. Run the following command in your root directory of the project
+   ```bash
+    vagrant hostmanager
+    ```
 6. You can now access your web url e.g. http://project.dev/ in your host machine's browser.
 
 7. Not so fast, before you dive into the coding stuff, do remember to first run the following command in your project root directroy on Host Operating system and keep it running
