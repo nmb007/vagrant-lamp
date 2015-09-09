@@ -30,11 +30,11 @@ And:
 
 2. Change values,paths accordingly in puphpet/config-custom.yaml and accordingly in puphpet/files/exec-once/custom.sh as well
 
-3. Install the plugin
+3. Install the plugin by typing in the following command
 
    **$ vagrant plugin install vagrant-hostmanager**
 
-4. Run **$ vagrant hostmanager** in your root directory of the project
+4. Run **$ vagrant hostmanager** in your terminal in your root directory of the project
 
 5. Go to your project root directory in Host Operating System and run
 
