@@ -53,7 +53,7 @@ And:
   ```bash
    vagrant rsync-auto
   ```
-It will watch your project directory for any change and then automatically synchronize and applies it to the guest machine as well
+It will watch your project directory for any change, if found, it will automatically synchronize and applies it to the guest machine as well
 
 **Default MySQL Credentials**
 ```bash
