@@ -30,7 +30,7 @@ And:
 
 2. Change values and paths accordingly in `puphpet/config-custom.yaml` and accordingly in `puphpet/files/exec-once/custom.sh` as well
 
-3. Install the plugin (If you have already installed, then ignore this step)
+3. Install the plugin (If you have already installed in your system, then ignore this step)
 
    ```bash
    vagrant plugin install vagrant-hostmanager
