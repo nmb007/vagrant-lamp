@@ -50,9 +50,11 @@ And:
 6. You can now access your web url e.g. http://project.dev/ in your host machine's browser.
 
 **Default MySQL Password**
-
+   
+   ```bash
     Username: root
     Password: uraan123
+   ```
 
 PHPMyAdmin is at http://phpmyadmin.dev
 
