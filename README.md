@@ -49,7 +49,7 @@ And:
 
 6. You can now access your web url e.g. http://project.dev/ in your host machine's browser.
 
-**Default MySQL Password**
+**Default MySQL Credentials**
 ```bash
 Username: root
 Password: uraan123
