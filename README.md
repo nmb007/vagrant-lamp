@@ -45,7 +45,7 @@ And:
    ```bash
    vagrant up
    ```
-   and then take a :tea: break because it will take a while to setup for the first time :)
+   and then take a :coffee: break because it will take a while to setup for the first time :)
 
 6. You can now access your web url e.g. http://project.dev/ in your host machine's browser.
 
