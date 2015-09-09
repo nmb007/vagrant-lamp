@@ -59,6 +59,6 @@ PHPMyAdmin is at http://phpmyadmin.dev
 
 **NOTES:** 
 
-1. Remember to always take back up of your database prior to running "**$ vagrant destroy**"
+1. Remember to always take back up of your database prior to running `vagrant destroy`
 
 2. Always run migrations and other framework specific shell utilities like yiic, zf from the guest machine
