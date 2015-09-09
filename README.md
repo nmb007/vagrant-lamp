@@ -42,7 +42,7 @@ And:
    ```
    and then take a :coffee: break because it will take a while to setup for the first time :)
 
-5. Run the following command in your root directory of the project (It has to be run only after the first initial vagrant up or in the case when you do vagrant destroy and then vagrant up, you need to execute this command again)
+5. Run the following command in your root directory of the project (It has to be run only after the first initial vagrant up or in the case when you do vagrant destroy and then vagrant up)
    ```bash
     vagrant hostmanager
     ```
