@@ -22,7 +22,7 @@ And:
 **Requirements:**
 
 1. Virtual Box 4.3
-2. Vagrant >= 1.6.0 (but preferably 1.7.4)
+2. Vagrant >= 1.6.0 (but preferably 1.7.4) https://www.vagrantup.com/
 
 **Installation:**
 
