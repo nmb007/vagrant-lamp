@@ -54,7 +54,7 @@ And:
   ```
 It will watch your project directory for any change, if found, it will automatically synchronize and applies it to the guest machine as well
 
-8. After setting all this up, if you still need to fix or change some values in yaml or shell script file, then after changing values in those file you need to run `vagrant provision` so vagrant can pick those changes for you.
+8. After setting all this up, if you want to go back and change some values in yaml or shell script file, then after changing values in those files just remember you need to run `vagrant provision` so vagrant can pick those changes for you.
 
 **Default MySQL Credentials**
 ```bash
