@@ -54,6 +54,8 @@ And:
   ```
 It will watch your project directory for any change, if found, it will automatically synchronize and applies it to the guest machine as well
 
+8. After setting all this up, if you still need to fix or change some values in yaml or shell script file, then after changing values in those file you need to run `vagrant provision` so vagrant can pick those changes for you.
+
 **Default MySQL Credentials**
 ```bash
 Username: root
@@ -67,4 +69,3 @@ PHPMyAdmin is at http://phpmyadmin.dev
 1. Remember to always take back up of your database prior to running `vagrant destroy`
 2. Use `vagrant ssh` to connect and log on to the guest machine
 3. Always run migrations and other framework specific shell utilities like yiic, zf from the guest machine
-
