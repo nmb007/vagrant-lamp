@@ -18,6 +18,7 @@ And:
 - PHPMyAdmin
 - Sass
 - PrinceXML
+- Java
 
 **Requirements:**
 
