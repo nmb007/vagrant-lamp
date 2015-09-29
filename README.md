@@ -20,6 +20,8 @@ And:
 - PrinceXML
 - Java
 
+**NOTE: It uses 'rsync' as sync_folder type and hence it only synchronizes files from Host to Guest (not from Guest to Host)
+
 **Requirements:**
 
 1. Virtual Box 4.3
