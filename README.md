@@ -28,36 +28,39 @@ And:
 2. Vagrant >= 1.6.0 (but preferably 1.7.4) https://www.vagrantup.com/
 
 **Installation:**
+1. Install the plugin (If you have already installed in your system, then ignore this step)
+  ```bash
+   vagrant plugin install vagrant-rsync-back
+   ```  
+2. Clone this repository and copy all the files (excluding README.md) in your project root directory
 
-1. Clone this repository and copy all the files (excluding README.md) in your project root directory
+3. Change values and paths accordingly in `puphpet/config-custom.yaml` and accordingly change Line # 5 and Line # 14 in `puphpet/files/exec-once/custom.sh` as well
 
-2. Change values and paths accordingly in `puphpet/config-custom.yaml` and accordingly change Line # 5 and Line # 14 in `puphpet/files/exec-once/custom.sh` as well
-
-3. Install the plugin (If you have already installed in your system, then ignore this step)
+4. Install the plugin (If you have already installed in your system, then ignore this step)
 
    ```bash
    vagrant plugin install vagrant-hostmanager
    ```
 
-4. Go to your project root directory in your host operating system and run
+5. Go to your project root directory in your host operating system and run
    ```bash
    vagrant up
    ```
    and then take a :coffee: break because it will take a while to setup for the first time :)
 
-5. Run the following command in your root directory of the project (It has to be run only after the first initial vagrant up or in the case when you do vagrant destroy and then vagrant up)
+6. Run the following command in your root directory of the project (It has to be run only after the first initial vagrant up or in the case when you do vagrant destroy and then vagrant up)
    ```bash
     vagrant hostmanager
     ```
-6. You can now access your web url e.g. http://project.dev/ in your host machine's browser.
+7. You can now access your web url e.g. http://project.dev/ in your host machine's browser.
 
-7. Not so fast, before you dive into the coding stuff, do remember to first run the following command in your project root directory on Host Operating system and keep it running
+8. Not so fast, before you dive into the coding stuff, do remember to first run the following command in your project root directory on Host Operating system and keep it running
   ```bash
    vagrant rsync-auto
   ```
 It will watch your project directory for any change, if found, it will automatically synchronize and applies it to the guest machine as well
 
-8. After setting all this up, if you want to go back and change some values in yaml or shell script file, then after changing values in those files just remember you need to run `vagrant provision` so vagrant can pick those changes for you.
+9. After setting all this up, if you want to go back and change some values in yaml or shell script file, then after changing values in those files just remember you need to run `vagrant provision` so vagrant can pick those changes for you.
 
 **Default MySQL Credentials**
 ```bash
