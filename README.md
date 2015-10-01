@@ -30,6 +30,7 @@ And:
 **Installation:**
 
 1. Install the plugin (If you have already installed in your system, then ignore this step)
+
   ```bash
    vagrant plugin install vagrant-rsync-back
    ```  
