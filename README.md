@@ -34,15 +34,15 @@ And:
   ```bash
    vagrant plugin install vagrant-rsync-back
    ```  
-2. Clone this repository and copy all the files (excluding README.md) in your project root directory
-
-3. Change values and paths accordingly in `puphpet/config-custom.yaml` and accordingly change Line # 5 and Line # 14 in `puphpet/files/exec-once/custom.sh` as well
-
-4. Install the plugin (If you have already installed in your system, then ignore this step)
+2. Install the plugin (If you have already installed in your system, then ignore this step)
 
    ```bash
    vagrant plugin install vagrant-hostmanager
    ```
+
+3. Clone this repository and copy all the files (excluding README.md) in your project root directory
+
+4. Change values and paths accordingly in `puphpet/config-custom.yaml` and accordingly change Line # 5 and Line # 14 in `puphpet/files/exec-once/custom.sh` as well
 
 5. Go to your project root directory in your host operating system and run
    ```bash
