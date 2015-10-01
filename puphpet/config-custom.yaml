@@ -1,26 +1,26 @@
 vagrantfile:
     vm:
-        hostname: Test-Project
+        hostname: Conrad
         synced_folder:
             vflsf_z64gtcw0od4i:
-                target: /var/www/project
+                target: /var/www/conrad
 apache:
     vhosts:
         av_nvjebw8jor9g:
-            servername: project.dev
+            servername: conrad.dev
             serveraliases:
-                - project.dev
+                - conrad.dev
                 - '*.vagrantshare.com'
-            docroot: /var/www/project/web
+            docroot: /var/www/conrad/web
             directories:
                 avd_5xa3ga631b0o:
-                    path: /var/www/project/web
+                    path: /var/www/conrad
                     custom_fragment: "## XSEND"
 mysql:
     settings:
         root_password: uraan123
     databases:
         mysqlnd_dcghdzjctstf:
-            name: project_db
+            name: conrad_db
             sql: ''
 

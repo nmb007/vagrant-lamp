@@ -63,7 +63,7 @@ vagrantfile:
         username: vagrant
         guest_port: null
         keep_alive: true
-        forward_agent: false
+        forward_agent: true
         forward_x11: false
         shell: 'bash -l'        
     vagrant:
@@ -84,6 +84,7 @@ server:
         - xorg-x11-font-utils
         - fontconfig
         - libtool
+        - java-1.7.0-openjdk
 users_groups:
     install: '1'
     groups:
@@ -261,6 +262,8 @@ php:
         upload_max_filesize: '50M'
         post_max_size: '200M'
         memory_limit: '256M'
+        mbstring.internal_encoding: 'UTF-8'
+        mbstring.language: 'Neutral'
     fpm_ini:
         error_log: /var/log/php-fpm.log
     fpm_pools:
