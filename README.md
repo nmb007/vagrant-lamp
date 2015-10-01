@@ -28,6 +28,7 @@ And:
 2. Vagrant >= 1.6.0 (but preferably 1.7.4) https://www.vagrantup.com/
 
 **Installation:**
+
 1. Install the plugin (If you have already installed in your system, then ignore this step)
   ```bash
    vagrant plugin install vagrant-rsync-back
