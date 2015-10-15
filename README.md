@@ -19,6 +19,7 @@ And:
 - Sass
 - PrinceXML
 - Java
+- FFmpeg
 
 **NOTE:** It uses 'rsync' as sync_folder type and hence it only synchronizes files from Host to Guest (not from Guest to Host)
 
