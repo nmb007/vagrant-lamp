@@ -49,6 +49,7 @@ vagrantfile:
                         - '--delete'
                     exclude:
                         - .vagrant/
+                        - /files/
                     auto: 'true'
                 owner: www-data
                 group: www-data
