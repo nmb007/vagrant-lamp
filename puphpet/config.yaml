@@ -50,6 +50,7 @@ vagrantfile:
                     exclude:
                         - .vagrant/
                         - /files/
+                        - /web/css/
                     auto: 'true'
                 owner: www-data
                 group: www-data
