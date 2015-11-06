@@ -69,6 +69,28 @@ vagrantfile:
                         - /application/modules/search/assets/css/*.css.map
                         - /application/modules/user/assets/css/*.css
                         - /application/modules/user/assets/css/*.css.map
+                        - /application/modules/mdb/assets/css/*.css
+                        - /application/modules/mdb/assets/css/*.css.map
+                        - /customer/modules/idb/assets/css/*.css
+                        - /customer/modules/idb/assets/css/*.css.map
+                        - /customer/modules/admin/assets/css/*.css
+                        - /customer/modules/admin/assets/css/*.css.map
+                        - /customer/modules/cd/assets/css/*.css
+                        - /customer/modules/cd/assets/css/*.css.map
+                        - /customer/modules/cms/assets/css/*.css
+                        - /customer/modules/cms/assets/css/*.css.map
+                        - /customer/modules/fst/assets/css/*.css
+                        - /customer/modules/fst/assets/css/*.css.map
+                        - /customer/modules/newsletter/assets/css/*.css
+                        - /customer/modules/newsletter/assets/css/*.css.map
+                        - /customer/modules/page/assets/css/*.css
+                        - /customer/modules/page/assets/css/*.css.map
+                        - /customer/modules/search/assets/css/*.css
+                        - /customer/modules/search/assets/css/*.css.map
+                        - /customer/modules/user/assets/css/*.css
+                        - /customer/modules/user/assets/css/*.css.map
+                        - /customer/modules/mdb/assets/css/*.css
+                        - /customer/modules/mdb/assets/css/*.css.map
 
                     auto: 'true'
                 owner: www-data
