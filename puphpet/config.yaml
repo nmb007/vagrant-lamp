@@ -51,6 +51,25 @@ vagrantfile:
                         - .vagrant/
                         - /files/
                         - /web/css/
+                        - /application/modules/idb/assets/css/*.css
+                        - /application/modules/idb/assets/css/*.css.map
+                        - /application/modules/admin/assets/css/*.css
+                        - /application/modules/admin/assets/css/*.css.map
+                        - /application/modules/cd/assets/css/*.css
+                        - /application/modules/cd/assets/css/*.css.map
+                        - /application/modules/cms/assets/css/*.css
+                        - /application/modules/cms/assets/css/*.css.map
+                        - /application/modules/fst/assets/css/*.css
+                        - /application/modules/fst/assets/css/*.css.map
+                        - /application/modules/newsletter/assets/css/*.css
+                        - /application/modules/newsletter/assets/css/*.css.map
+                        - /application/modules/page/assets/css/*.css
+                        - /application/modules/page/assets/css/*.css.map
+                        - /application/modules/search/assets/css/*.css
+                        - /application/modules/search/assets/css/*.css.map
+                        - /application/modules/user/assets/css/*.css
+                        - /application/modules/user/assets/css/*.css.map
+
                     auto: 'true'
                 owner: www-data
                 group: www-data
