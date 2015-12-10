@@ -295,7 +295,7 @@ php:
             - mcrypt
         pear: {  }
         pecl:
-            - imagick-3.1.2
+            - imagick
     ini:
         display_errors: 'On'
         error_reporting: '-1'
